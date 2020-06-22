@@ -35,8 +35,8 @@ insert into product(sku, name, description, image_url, active, units_in_stock, u
 			,1,100,29.99,1, NOW());
 
 insert into product(sku, name, description, image_url, active, units_in_stock, unit_price, category_id, date_created) 
-	values('BOOK-TECH-1001', 'Spring Framework Tutorial', 'Learn Spring', 'assets/images/products/placeholder.png'
-			,1,100,29.99,1, NOW());
+	values('BOOK-TECH-1001', 'Crash Course in Python', 'Learn Python at your own pace. The author explains how the technology works in easy-to-understand language. This book includes working examples that you can apply to your own projects. Purchase the book and get started today!'
+    , 'assets/images/products/placeholder.png', 1, 100, 14.99, 1, NOW());
             
 insert into product(sku, name, description, image_url, active, units_in_stock, unit_price, category_id, date_created) 
 	values('BOOK-TECH-1004', 'The Go Programming Language: A to Z', 'Learn Go', 'assets/images/products/placeholder.png'
